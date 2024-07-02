@@ -646,7 +646,7 @@ header .follow a:hover{
 
 }
 :root {
-    --main-color: #582525;
+    --main-color: #194650;
     --bg-color-light: #fcf2e8;
     --text-color-light: #111;
     --bg-color-dark: #111;
@@ -704,7 +704,7 @@ body.dark-mode {
 }
 
 .toggle-switch:checked+.toggle-label {
-    background: #343a40;
+    background: #16181b;
 }
 
 .toggle-switch:checked+.toggle-label i.fa-sun {
