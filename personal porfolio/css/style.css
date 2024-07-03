@@ -269,7 +269,7 @@ header .follow a:hover{
     justify-content: space-between;
     padding:.7rem 0;
     font-size: 1.7rem;
-    color:#111;
+    color:#7f7777;
     font-weight: 400;
 }
 
@@ -704,7 +704,7 @@ body.dark-mode {
 }
 
 .toggle-switch:checked+.toggle-label {
-    background: #16181b;
+    background: #0a0b0e;
 }
 
 .toggle-switch:checked+.toggle-label i.fa-sun {
