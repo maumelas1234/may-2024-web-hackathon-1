@@ -21,6 +21,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
 body{
     background: #fcf2e8;
     padding-left: 30rem;
@@ -715,4 +719,244 @@ body.dark-mode {
 .toggle-switch:checked+.toggle-label i.fa-moon {
     transform: translateY(-50%) translateX(-100%);
     opacity: 1;
+}
+
+/* Add this CSS for spinning animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.service .box-container .box:hover i {
+    animation: spin 1s linear infinite;
+}
+
+/* Existing CSS */
+.service .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.service .box-container .box {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.service .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
+.service .box-container .box h3 {
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service .box-container .box p {
+    color: #666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+/* Add this CSS for spinning animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.service .box-container .box i:hover {
+    animation: spin 0.5s linear infinite;
+}
+
+/* Existing CSS */
+.service .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.service .box-container .box {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.service .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background: var(--main-color);
+    border-radius: 50%;
+    transition: transform 0.5s; /* Smooth transition when stopping */
+}
+
+.service .box-container .box h3 {
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service .box-container .box p {
+    color: #666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+/* Add this CSS for spinning animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.service .box-container .box i {
+    display: inline-block;
+    transition: transform 0.5s ease-out;
+}
+
+.service .box-container .box i:hover {
+    animation: spin 0.5s linear infinite;
+    transition: none; /* Disable transition on hover */
+}
+
+/* Existing CSS */
+.service .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.service .box-container .box {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.service .box-container .box h3 {
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service .box-container .box p {
+    color: #666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}/* Add this CSS for spinning animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.service .box-container .box i {
+    display: inline-block;
+    transition: transform 0.5s ease-out;
+}
+
+.service .box-container .box i:hover {
+    animation: spin 0.5s linear infinite;
+}
+
+/* Existing CSS */
+.service .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.service .box-container .box {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.service .box-container .box h3 {
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service .box-container .box p {
+    color: #666;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+body {
+    font-family: 'Comic sans', sans-serif;
+    font-weight: 900;
+    /* Regular weight */
+}
+
+/* Applying heavier weight where needed */
+.heading {
+    font-weight: 900;
+    /* Medium */
+}
+
+.home .content h3,
+.about .row-1 .content h3,
+.about .row-1 .content .box-container .box h3,
+.about .row-2 .skills .progress h3,
+.about .row-2 .box-container .box h3,
+.experience .box-container .box .content h3,
+.portfolio .box-container .box h3,
+.contact .icons-container .icons h3 {
+    font-weight: 900;
+    /* Semi-bold */
+}
+
+.service .box-container .box h3 {
+    font-weight: 900;
+    /* Bold */
+}
+/* style.css */
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
