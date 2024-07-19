@@ -305,7 +305,7 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width:33.3%;
+    width:50%;
 }
 
 .about .row-2 .box-container{
@@ -1071,4 +1071,19 @@ body {
         right: 3px;
         /* Further adjust right position of moon icon */
     }
+}
+#dark-light-mode-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10000; /* Ensure it's above other elements */
+    background: var(--main-color);
+    color: #fff;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

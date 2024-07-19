@@ -39,3 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.toggle('dark-mode', toggleSwitch.checked);
     });
 });
+
+
+document.getElementById('dark-light-mode-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
